@@ -1,0 +1,30 @@
+{
+  "name": "karma-example",
+  "version": "1.0.0",
+  "description": "karma config example project",
+  "main": "src/index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "karma start"
+  },
+  "keywords": [
+    "karma"
+  ],
+  "author": "Timo Liu",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.14.0",
+    "babel-loader": "^6.2.5",
+    "babel-plugin-istanbul": "^2.0.1",
+    "babel-preset-es2015": "^6.14.0",
+    "jasmine-core": "^2.5.1",
+    "karma": "^1.3.0",
+    "karma-coverage": "^1.1.1",
+    "karma-jasmine": "^1.0.2",
+    "karma-phantomjs-launcher": "^1.0.2",
+    "karma-webpack": "^1.8.0",
+    "webpack": "^1.13.2"
+  }
+}
